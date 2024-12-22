@@ -1,0 +1,446 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+    background-color: rgb(43, 40, 40);
+    border-radius: 5px;
+
+   
+}
+.logo{
+    color: white;
+}
+
+.home{
+    text-decoration: none;
+}
+.liens{
+    margin-top: 20px;
+}
+
+.cart {
+    text-decoration: none;
+    color: rgb(1, 137, 228);
+    background-color: rgb(3, 3, 83);
+    padding: 13px;
+    font-size: large;
+    border-radius: 30px;
+    font-weight: 900;
+
+}
+
+.cart .fa-solid {
+    color: rgb(1, 137, 228);
+    padding-right: 5px;
+}
+
+.sign {
+    margin-inline: 1.2rem;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Trebuchet MS';
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+
+}
+
+.Register {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Trebuchet MS';
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+
+}
+.sin:hover{
+    scale: 0.5;
+}
+
+.fa-solid {
+    color: rgb(195, 0, 202);
+    
+}
+.home{
+    color: white;
+    font-size: medium;
+}
+.logo:hover{
+    scale: 0.95;
+}
+
+
+.sign:hover {
+    background-color: rgb(3, 3, 83);
+    color: rgb(1, 137, 228);
+    
+
+    .fa-solid {
+        color: rgb(1, 137, 228);
+    }
+    
+}
+
+.Register:hover {
+    background-color: rgb(3, 3, 83);
+    color: rgb(1, 137, 228);
+
+    .fa-solid {
+        color: rgb(1, 137, 228);
+    }
+}
+
+.pro-number {
+    position: absolute;
+    background-color: rgb(241, 94, 94);
+    width: 22px;
+    height: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    top: -8px;
+    right: 0;
+    font-size: 0.9rem;
+}
+
+/* ======LOGO====== */
+
+.fa-bag-shopping {
+    font-size: 2rem;
+}
+
+
+@media (width < 600px) {
+    .logo {
+        display: none;
+    }
+
+    .container {
+        justify-content: center;
+        padding-inline: 0;
+    }
+
+    .liens {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 10px;
+    }
+
+
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    background: linear-gradient(45deg,rgb(1, 47, 61),#f77261,#fcdb4a,#c553fa);
+    background-size: 300% 300%;
+}
+
+
+.conte{
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    img{
+        width: 30%;
+    }
+    margin-inline:auto ;
+    box-shadow: 3px 2px 5px -1px rgba(0, 0, 0, 2);
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: white;
+  
+}
+.det div{
+    display: flex;
+    justify-content: space-between;
+}
+.det{
+    background-color: azure;
+}
+.det div p{
+    color: red;
+    font-size: large;
+    font-family:'Trebuchet MS' ;
+    margin-right: 10px;
+}
+.det div h2{
+     color: rgb(5, 5, 41);
+    font-size: x-large;
+    font-family:'Trebuchet MS' ;
+    margin-left: 10px;
+}
+.script{
+    color: rgb(133, 133, 139);
+    font-size:large;
+    font-family:'Trebuchet MS' ;
+    margin-inline: 1.2rem;
+    line-height: 1.4rem;
+}
+.btn4{
+    background-color: rgb(42, 114, 207);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.btn4 .fa-solid{
+    color: white;
+
+}
+.btn4:hover{
+    scale: 0.9;
+}
+
+@media (width < 700px) {
+    .conte{
+        flex-wrap: wrap;
+    }
+    .script{
+        color: rgb(5, 5, 41);
+        font-size:large;
+        font-family:'Trebuchet MS' ;
+        margin-inline: 1.2rem;
+        line-height: 1.4rem;
+    }
+}
+
+
+.produit {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+    
+}
+
+
+.card {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 2), 2px 2px 2px 1px rgba(240, 145, 145, 0.14), 2px 2px 2px 1px rgba(0, 0, 0, 0.12);
+    ;
+    border-radius: 5px;
+    transition: 0.9s;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: auto;
+    margin-bottom: 50px;
+}
+.shop-now{
+    background-color: white;
+    padding: 8px 15px 8px 15px;
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.shop-now:hover{
+    scale: 0.96;
+    background-color: rgb(214, 219, 223);
+    
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    width: 200px;
+}
+
+img:hover{
+    scale: 0.9;
+    transition: 0.5s;
+}
+
+.content-cart {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    border-top: solid gray;
+    
+}
+
+.rec {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-size: 1.6rem;
+    color: rgb(5, 5, 41);
+    margin-bottom: 30px;
+}
+
+.titre {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-size: 1.6rem;
+    color: rgb(5, 5, 41);
+    margin-left: 20px;
+
+}
+
+.description {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-weight: 600;
+}
+
+body {
+    background-color: rgb(238, 238, 248);
+}
+
+main {
+    margin-top: 50px;
+    width: 80%;
+    margin-inline: auto;
+    
+}
+
+@media (width < 600px) {
+    main {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .bt1 {
+        background-color: rgb(73, 0, 207);
+        padding: 5px 12px;
+        color: white;
+        border-radius: 3px;
+        font-size: 0.9rem;
+    }
+
+
+}
+.prix {
+    font-weight: bold;
+    color: rgb(255, 49, 49);
+    margin-left: 10px;
+}
+
+
+
+.add-cart {
+    background-color: rgb(52, 140, 255);
+    color: white;
+    padding: 10px;
+    border: rgb(52, 140, 255);
+    border-radius: 10px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 2);
+}
+.add-cart:hover{
+    scale: 0.9;
+    cursor: pointer;
+}
+
+.add {
+    color: white;
+}
+
+@media (width < 400px) {
+    .bt1 {
+        background-color: rgb(189, 0, 189);
+        padding: 2px 6px;
+        color: white;
+        border-radius: 3px;
+        font-size: 0.9rem;
+    }
+    .produit{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content {
+        font-size: 1.2rem;
+    }
+
+    .rec {
+        font-size: 1.2rem;
+    }
+    
+    .flex{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+
+    }
+    main {
+        margin-top: 50px;
+        width: 90%;
+        margin-inline: auto;
+    }
+    .add-cart {
+        background-color: rgb(112, 0, 146);
+        color: white;
+        padding: 5px;
+        border: rgb(112, 0, 146);
+        border-radius: 5px;
+        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 2);
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+
+}
+.all{
+        color: rgb(5, 5, 41);
+        font-size:xx-large;
+        font-family:'Trebuchet MS';
+        text-align: center;
+        margin-top: 50px;
+}
+.spa{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+footer{
+    background-color: rgb(43, 40, 40);
+    height: 70px;
+    color: white;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-size: large;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px 10px 0 0;
+    
+}
+.aymen{
+    color: rgb(228, 46, 46);
+}
+@media (width < 900px) {
+    .pub{
+        flex-wrap: wrap;
+    }
+    .cont{
+        flex-wrap: wrap;
+    }
+
+}
+
+.resp:hover{
+    scale: 0.96;
+}
+.resp{
+    box-shadow: 0px 2px 3px -1px rgba(0, 0, 0, 2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
